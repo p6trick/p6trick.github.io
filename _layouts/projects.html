@@ -6,10 +6,10 @@ layout: default
   {% for projects in site.projects %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ projects.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ projects.url }}">{{ projects.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ projects.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ projects.url }}">Read More</a>

@@ -6,10 +6,10 @@ layout: default
   {% for patents in site.patents %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ patents.url }}">{{ post.title }}</a></h1>
-      patents
+      <h1><a href="{{ site.baseurl }}{{ patents.url }}">{{ patents.title }}</a></h1>
+      
       <div class="entry">
-        {{ post.excerpt }}
+        {{ patents.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ patents.url }}">Read More</a>
