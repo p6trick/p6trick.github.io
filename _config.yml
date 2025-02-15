@@ -34,7 +34,8 @@ minima:
 # baseurl: http://127.0.0.1:4000
 header_pages:
   - index.md
-  - blog.md
+  - papers.md
+  - projects.md
 
 # Config section the home
 
