@@ -35,6 +35,7 @@ minima:
 header_pages:
   - index.md
   - papers.md
+  - projects.md
   - patents.md
 
 # Config section the home
@@ -52,16 +53,18 @@ jekyll-theme-experiment:
     projects:
 
       - name: Papers
-        github: https://github.com/anxhe/jekyll-theme-experiment
-        img_relative_url: /assets/example.png
-
-      - name: Patents
-        github: https://github.com/anxhe/jekyll-theme-experiment
+        github: https://p6trick.github.io/papers.html
         img_relative_url: /assets/example.png
 
       - name: Projects
-        github: https://github.com/anxhe/jekyll-theme-experiment
+        github: https://p6trick.github.io/projects.html
         img_relative_url: /assets/example.png
+
+      - name: Patents
+        github: https://p6trick.github.io/patents.html
+        img_relative_url: /assets/example.png
+
+
 
   tools:
     title: Tools and Experience
