@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% for post in site.posts %}
-    {% if page.url contains '/patents/' %}
+  {% for post in site.pages %}
+    {% if post.url contains '/patents/' %}
       <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
