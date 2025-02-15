@@ -3,16 +3,16 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% for post in site.posts %}
+  {% for patenets in site.patenets %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.patents.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ patenets.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.patents.url }}">Read More</a>
+      <a href="{{ site.baseurl }}{{ patenets.url }}">Read More</a>
     </article>
     <hr class="hr-separator">
   {% endfor %}
