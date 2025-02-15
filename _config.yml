@@ -74,6 +74,8 @@ jekyll-theme-experiment:
       - relative_url: https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg
       - relative_url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg
       - relative_url: https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg
+      - relative_url: https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg
+      - relative_url: /assets/icons/matlab-svgrepo-com.svg
       - relative_url: /assets/icons/git/git-original.svg
       
 
