@@ -54,15 +54,15 @@ jekyll-theme-experiment:
     projects:
 
       - name: Papers
-        github: https://p6trick.github.io/papers.html
+        github: https://p6trick.github.io/papers
         img_relative_url: /assets/example.png
 
       - name: Projects
-        github: https://p6trick.github.io/projects.html
+        github: https://p6trick.github.io/projects
         img_relative_url: /assets/example.png
 
       - name: Patents
-        github: https://p6trick.github.io/patents.html
+        github: https://p6trick.github.io/patents
         img_relative_url: /assets/example.png
 
 
@@ -80,3 +80,10 @@ jekyll-theme-experiment:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  projects:
+    output: true
+
+  patents:
+    output: true
