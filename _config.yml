@@ -50,11 +50,15 @@ jekyll-theme-experiment:
     title: Portfolio
     projects:
 
-      - name: Jekyll Theme experiment
+      - name: Papers
         github: https://github.com/anxhe/jekyll-theme-experiment
         img_relative_url: /assets/example.png
 
-      - name: Jekyll Theme experiment
+      - name: Patents
+        github: https://github.com/anxhe/jekyll-theme-experiment
+        img_relative_url: /assets/example.png
+
+      - name: Projects
         github: https://github.com/anxhe/jekyll-theme-experiment
         img_relative_url: /assets/example.png
 
