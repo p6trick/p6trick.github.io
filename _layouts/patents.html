@@ -6,13 +6,13 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ post.patents.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.patents.url }}">Read More</a>
     </article>
     <hr class="hr-separator">
   {% endfor %}
