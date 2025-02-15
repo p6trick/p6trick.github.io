@@ -3,20 +3,20 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% for post in site.pages %}
-    {% if post.url contains '/patents/' %}
-      <article class="post">
+  {% for patents in site.patents %}
+    
+    <article class="post">
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ patents.url }}">{{ patents.title }}</a></h1>
 
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
+      <div class="entry">
+        {{ patents.excerpt }}
+      </div>
 
-        <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-      </article>
-      <hr class="hr-separator">
-    {% endif %}
+      <a href="{{ site.baseurl }}{{ patents.url }}">Read More</a>
+    </article>
+    <hr class="hr-separator">
+    
   {% endfor %}
 </div>
 
