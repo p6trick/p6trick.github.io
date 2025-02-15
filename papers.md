@@ -1,5 +1,5 @@
 ---
 layout: papers
-title: papers
+title: Papers
 permalink: /papers/
 ---

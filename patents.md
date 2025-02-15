@@ -1,5 +1,5 @@
 ---
 layout: patents
-title: patents
+title: Patents
 permalink: /patents/
 ---
