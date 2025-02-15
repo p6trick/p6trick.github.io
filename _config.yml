@@ -84,10 +84,10 @@ exclude:
 collections:
   projects:
     output: true
-    permalink: /projects/
+    permalink: /projects/:title/
   patents:
     output: true
-    permalink: /patents/
+    permalink: /patents/:title/
   papers:
     output: true
-    permalink: /papers/
+    permalink: /papers/:title/
