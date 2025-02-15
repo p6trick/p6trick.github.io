@@ -54,7 +54,7 @@ jekyll-theme-experiment:
     projects:
 
       - name: Papers
-        github: https://p6trick.github.io/papers.html
+        github: https://p6trick.github.io/papers/papers.html
         img_relative_url: /assets/example.png
 
       - name: Projects
@@ -62,7 +62,7 @@ jekyll-theme-experiment:
         img_relative_url: /assets/example.png
 
       - name: Patents
-        github: https://p6trick.github.io/patents.html
+        github: https://p6trick.github.io/patents/patents.html
         img_relative_url: /assets/example.png
 
 
