@@ -7,7 +7,7 @@ $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     20px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
@@ -17,8 +17,8 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$purple-color: rgb(34,115,50);
-$purple-color-transparent: rgba(34,115,50,0.9);
+$purple-color: rgb(25,111,61);
+$purple-color-transparent: rgba(25,111,61,0.9);
 // $table-text-align: left !default;
 
 //Width of the content area
