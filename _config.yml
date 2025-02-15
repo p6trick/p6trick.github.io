@@ -61,12 +61,12 @@ jekyll-theme-experiment:
   tools:
     title: Tools and Experience
     icons:
-      - relative_url: /assets/icons/bitbucket/bitbucket-original.svg
-      - relative_url: /assets/icons/heroku/heroku-original.svg
-      - relative_url: /assets/icons/git/git-original.svg
-      - relative_url: /assets/icons/express/express-original.svg
-      - relative_url: /assets/icons/angularjs/angularjs-original.svg
+      - relative_url: https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg
       - relative_url: https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg
+      - relative_url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg
+      - relative_url: https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg
+      - relative_url: /assets/icons/git/git-original.svg
+      
 
 exclude:
   - Gemfile
