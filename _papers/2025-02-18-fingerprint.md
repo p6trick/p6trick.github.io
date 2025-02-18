@@ -7,7 +7,7 @@ permalink: /papers/:title/
 [[Paper]](https://ieeexplore.ieee.org/document/10677437)
 [[Code]](https://github.com/p6trick/Attention-Map-Is-All-We-Need-for-Lightweight-Fingerprint-Liveness-Detection)
 
-![main_figure](/assets/img/fingerprint_fig.png){: width="80%" height="80%"}
+![main_figure](/assets/img/fingerprint_fig.png){: width="100%" height="100%"}
 
 ## Abstract
 
